@@ -1,13 +1,331 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>GarVerseLOD</title>
-</head>
-<body>
+<!doctype html>
+<html lang="en">
 
-<h1>GarVerseLOD</h1>
-<p>Coming soon...</p>
+   
+  <!-- <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎓</text></svg>"> -->
+  <link rel="icon" type="image/png" href="/media/research/EMS/eyebrow.png">
 
-</body>
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@500&family=Alegreya+SC&family=Lora:wght@400&display=swap" rel="stylesheet">
+
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+
+  <body>
+
+
+
+<div class="row pt-1 m-1">
+              
+
+<div class="container" style="text-align:center;">
+
+
+
+  <div class="row mb-2">
+    <div class="col">
+      <p class="full-title"> EMS: 3D Eyebrow Modeling from Single-view Images </p>
+    </div>
+  </div>
+  
+  <!-- <div class="row mb-4">
+    <div class="col">
+			
+					<img src=/media/papers/vector-heat-method/big_teaser.jpg class="img-fluid big-teaser-image drop-shadow" alt="big teaser image">
+			
+		</div>
+  </div> -->
+  
+  <div class="row">
+    <div class="col">
+      <div class="d-flex justify-content-center flex-wrap authors-list">
+        
+          <div class="ml-2 mr-2">
+          
+            <a href="https://kevinlee09.github.io" class="plain-link">Chenghong Li</a><a class="plain-wo-link"><sup>* 1, 2</sup></a>
+          
+          </div>
+        
+          <div class="ml-2 mr-2">
+          
+            <a class="plain-wo-link">Leyang Jin<sup>*2</sup></a>
+          
+          </div>
+        
+
+          <div class="ml-2 mr-2">
+          
+            <a href="https://paulyzheng.github.io/about/" class="plain-link">Yujian Zheng</a><a class="plain-wo-link"><sup> 1, 2</sup></a>
+          
+          </div>
+
+
+          <div class="ml-2 mr-2">
+          
+            <a href="https://i.cs.hku.hk/~yzyu/" class="plain-link">Yizhou Yu</a><a class="plain-wo-link"><sup>#3</sup></a>
+          
+          </div>
+
+          <div class="ml-2 mr-2">
+          
+            <a href="https://gaplab.cuhk.edu.cn/pages/people" class="plain-link">Xiaoguang Han</a><a class="plain-wo-link"><sup>#2, 1</sup></a>
+          
+          </div>
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col schools-list">
+      <p>1. FNii, CUHKSZ &nbsp; &nbsp; 2. SSE, CUHKSZ &nbsp;&nbsp; 3. The University of Hong Kong </p>
+    </div>
+  </div>
+
+  <div class="row mb-2">
+    <div class="col publication-status">
+      ACM Transactions on Graphics (SIGGRAPH Asia 2023) 
+    </div>
+  </div>
+  <div class="row mb-3">
+    <div class="col">
+      
+    </div>
+  </div>
+  <div class="row mb-3">
+    <div class="col">
+      
+      <div class="d-flex justify-content-center flex-wrap">
+     
+        <div>
+          <a href="/media/papers/EMS/EMS.pdf" class="btn-lg big-badge-button ml-2 mr-2 mb-2" role="button">pdf (12MB)</a>
+        </div>
+
+        <div>
+          <a href="https://github.com/kevinlee09/EMS_dataset" class="btn-lg big-badge-button ml-2 mr-2 mb-2" role="button">data</a> 
+        </div>
+  
+        <div>
+          <a href="/media/papers/EMS/EMS_fast_forward.pdf" class="btn-lg big-badge-button ml-2 mr-2 mb-2" role="button">fast forward</a>
+        </div>
+  
+        <div>
+          <a href="/media/papers/EMS/EMS_pre.pdf" class="btn-lg big-badge-button ml-2 mr-2 mb-2" role="button">slides</a>
+        </div>  
+
+      </div>
+    </div>
+  </div>
+
+
+  <div class="row mb-4">
+    <div class="col">
+			
+					<img src=/media/research/EMS/EMS_teaser.jpg class="img-fluid big-teaser-image drop-shadow" alt="big teaser image">
+			
+		</div>
+  </div>
+
+  <div class="row">
+    <div class="col">
+      <p class="abstract">
+        Nowadays, 3D heads can be easily digitalized with high-fidelity geometry and texture, like the setup used in FaceScape. In this work, we proposed EMS, a learning-based approach, which can further reconstruct 3D eyebrows from just the frontal-view image. (a) the input image. (b) the cropped eyebrow image from (a). (c) our reconstructed fiber-level 3D eyebrow model rendered with multiple views. (d) the cropped rendering of (e) for comparison with (b). (e) putting our result on the textured 3D head can further improve the realism of face digitalization.
+      </p>
+    </div>
+  </div>
+
+  <div class="row content-header">
+    <div class="col pr-0">
+    <p>Abstract</p>
+    </div>
+  </div>
+  <div class="row mb-4">
+    <div class="col">
+      <p class="abstract">
+        Eyebrows play a critical role in facial expression and appearance. Although
+        the 3D digitization of faces is well explored, less attention has been drawn
+        to 3D eyebrow modeling. In this work, we propose EMS, the first learning-based 
+        framework for single-view 3D eyebrow reconstruction. Following the methods 
+        of scalp hair reconstruction, we also represent the eyebrow as a set of 
+        fiber curves and convert the reconstruction to fibers growing problem.
+        Three modules are then carefully designed: RootFinder firstly localizes the
+        fiber root positions which indicate where to grow; OriPredictor predicts an
+        orientation field in the 3D space to guide the growing of fibers; FiberEnder is
+        designed to determine when to stop the growth of each fiber. Our OriPredictor
+        directly borrows the method used in hair reconstruction. Considering the
+        differences between hair and eyebrows, both RootFinder and FiberEnder
+        are newly proposed. Specifically, to cope with the challenge that the root
+        location is severely occluded, we formulate root localization as a density map estimation task. 
+        Given the predicted density map, a density-based clustering
+        method is further used for finding the roots. For each fiber, the growth starts
+        from the root point and moves step by step until the ending, where each step
+        is defined as an oriented line segment with a constant length according to the
+        predicted orientation field. To determine when to end, a pixel-aligned RNN
+        architecture is designed to form a binary classifier, which outputs stop or not
+        for each growing step. To support the training of all proposed networks, we
+        build the first 3D synthetic eyebrow dataset that contains 400 high-quality
+        eyebrow models manually created by artists. Extensive experiments have
+        demonstrated the effectiveness of the proposed EMS pipeline on a variety of
+        different eyebrow styles and lengths, ranging from short and sparse to long
+        bushy eyebrows.
+      </p>
+    </div>
+  </div>
+  
+
+  
+  <!-- <div class="row">
+    <div class="col-1"> </div>
+    <div class="col">
+			<div class="embed-responsive embed-responsive-16by9">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/MNbM78xIriM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="col-1"> </div>
+  </div> -->
+  
+
+
+  <div class="row content-header">
+    <div class="col pr-0">
+    <p>Overview</p>
+    </div>
+  </div>
+  <br/>
+      
+  <div class="container" style="text-align:center;">
+  
+    <div class="row justify-content-center mb-1">
+        
+          <img src= /media/research/EMS/EMS_pipeline.jpg class="figure-img img-fluid selected-figure drop-shadow">
+        
+    </div>
+    <div class="row justify-content-center">
+        <p class="abstract"> The pipeline of eyebrow modeling from single-view images. Given a single-view image, our method reconstructs a fiber-level 3D eyebrow. We first prepare the intermediate data, then feed them into RootFinder, OriPredictor and FiberEnder to generate 3D eyebrow roots R, 3D orientation function D and ending function L. Following the eyebrow synthesis, we finally obtain the fiber-level eyebrow model. </p>
+    </div>
+    <br/>
+    <br/>
+  
+  </div>  
+
+  <div class="row content-header">
+    <div class="col pr-0">
+    <p>Comparison</p>
+    </div>
+  </div>
+  <br/>
+
+  <div class="container" style="text-align:center;">
+  
+    <div class="row justify-content-center mb-1">
+        
+          <img src= /media/research/EMS/EMS_comparison.jpg style="max-height:750pt;" class="paper-image img-fluid selected-figure drop-shadow">
+        
+    </div>
+    <br/>
+    <br/>
+  
+  </div>  
+
+  <div class="row content-header">
+    <div class="col pr-0">
+    <p>Diverse Results</p>
+    </div>
+  </div>
+  <br/>
+
+  <div class="container" style="text-align:center;">
+  
+    <div class="row justify-content-center mb-1">
+        
+          <img src= /media/research/EMS/EMS_wild.jpg style="max-height:400pt;" class="paper-image img-fluid selected-figure drop-shadow">
+        
+    </div>
+    <br/>
+    <br/>
+  
+  </div>  
+
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe width="540" height="315" src="/media/research/EMS/EMS_diverse_results.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  <br/>
+  <br/>
+
+
+  <div class="row content-header">
+    <div class="col pr-0">
+    <p>Reference</p>
+    </div>
+  </div>
+
+
+  <div class="bibtex">
+    <pre> <code class="bibtex-code">
+      @article{li2023ems,
+        title={EMS: 3D Eyebrow Modeling from Single-view Images},
+        author={Li, Chenghong and Jin, Leyang and Zheng, Yujian and Yu, Yizhou and Han, Xiaoguang},
+        journal={ACM Transactions on Graphics (TOG)},
+        volume={42},
+        number={6},
+        pages={1--19},
+        year={2023},
+        publisher={ACM New York, NY, USA}
+      }
+    </code></pre>
+  </div>
+  
+
+
+</div>
+
+<div class="row">
+  <div class="col">
+    
+  </div>
+</div>
+
+
+            </div>
+          </div>
+          <div class="col-xl-1"></div>
+        </div>
+    </div>
+
+    
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+  </body>
+    
+  <footer>
+
+
+<div class="row">
+<div class="col-12">
+<br>
+<br>
+<br>
+<br>
+</div>
+</div>
+
+
+</footer>
+
+
 </html>
