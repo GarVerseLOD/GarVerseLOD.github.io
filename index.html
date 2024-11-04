@@ -33,21 +33,64 @@
 
   <div class="row mb-2">
     <div class="col">
-      <p class="full-title"> GarVerseLOD: High-Fidelity 3D Garment Reconstruction from a Single In-the-Wild Image using a Dataset with Levels of Details </p>
+      <p class="full-title">GarVerseLOD: High-Fidelity 3D Garment Reconstruction from a Single In-the-Wild Image using a Dataset with Levels of Details </p>
     </div>
   </div>
   
   <div class="row">
     <div class="col">
       <div class="d-flex justify-content-center flex-wrap authors-list">
+
+        <div class="ml-2 mr-2">
+          <a href="https://zhongjinluo.github.io/" class="plain-link">Zhongjin Luo</a><a class="plain-wo-link"><sup>1</sup></a>
+        </div>
+
+        <div class="ml-2 mr-2">
+          <a href="https://haolinliu97.github.io/" class="plain-link">Haolin Liu</a><a class="plain-wo-link"><sup>2,1</sup></a>
+        </div>
         
-          <div class="ml-2 mr-2">
-          
-            ANONYMOUS AUTHORS
-          
-          </div>
+        <div class="ml-2 mr-2">
+          <a href="https://kevinlee09.github.io/" class="plain-link">Chenghong Li</a><a class="plain-wo-link"><sup>2, 1</sup></a>
+        </div>
+
+        <div class="ml-2 mr-2">
+          <a class="plain-wo-link">Wanghao Du<a class="plain-wo-link"><sup>2</sup></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col">
+      <div class="d-flex justify-content-center flex-wrap authors-list">
+        <div class="ml-2 mr-2">
+          <a class="plain-wo-link">Zirong Jin<a class="plain-wo-link"><sup>2</sup></a>
+        </div>
+        <div class="ml-2 mr-2">
+          <a href="https://yinyunie.github.io/" class="plain-link">Yinyu Nie</a><a class="plain-wo-link"><sup>3</sup></a>
+        </div>
+
+        <div class="ml-2 mr-2">
+          <a href="https://chenweikai.github.io/" class="plain-link">Weikai Chen</a><a class="plain-wo-link"><sup>4</sup></a>
+        </div>
+
+        <div class="ml-2 mr-2">
+          <a href="https://gaplab.cuhk.edu.cn/" class="plain-link">Xiaoguang Han</a><a class="plain-wo-link"><sup>#1, 2</sup></a>
+        </div>
         
       </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col schools-list">
+      <p>1. SSE, CUHKSZ &nbsp;&nbsp; 2. FNii, CUHKSZ &nbsp; &nbsp; 3. Huawei Noah’s Ark Lab &nbsp; &nbsp; 4. DCC Algorithm Research Center, Tencent Games</p>
+    </div>
+  </div>
+
+  <div class="row mb-2">
+    <div class="col publication-status">
+      ACM Transactions on Graphics (SIGGRAPH Asia 2024) 
     </div>
   </div>
 
@@ -55,6 +98,7 @@
     <div class="col">
     </div>
   </div>
+
   <div class="row mb-3">
     <div class="col">
       
@@ -81,7 +125,6 @@
 
   <div class="row mb-2">
     <div class="col">
-      Coming soon...
     </div>
   </div>
 
@@ -125,18 +168,46 @@
       
   <div class="row mb-4">
     <div class="col">
-				<img src="./method_new.png" class="img-fluid drop-shadow" width="100%" alt="image">
+				<img src="./method.png" class="img-fluid drop-shadow" width="100%" alt="image">
 		</div>
   </div>
 
   <div class="row">
       <p class="abstract">The pipeline of our proposed method. Given an RGB image, our method first estimates the T-pose garment shape and computes its pose-related deformation with the help of the predicted SMPL body. Then a pixel-aligned network is used to reconstruct implicit fine garment and the geometry-aware boundary estimator is adopted to predict the garment boundary. Finally, we perform garment registration to obtain the final mesh, which is topologically consistent and has open boundaries.</p>
   </div>
+
+  <div class="row content-header">
+    <div class="col pr-0">
+    <p>More Results on Loose-fitting Garments</p>
+    </div>
+  </div>
+  <br/>
+      
+  <div class="row mb-4">
+    <div class="col">
+				<img src="./0.jpg" class="img-fluid drop-shadow" width="100%" alt="image">
+		</div>
+  </div>
+  <div class="row mb-4">
+    <div class="col">
+				<img src="./1.jpg" class="img-fluid drop-shadow" width="100%" alt="image">
+		</div>
+  </div>
+  <div class="row mb-4">
+    <div class="col">
+				<img src="./2.jpg" class="img-fluid drop-shadow" width="100%" alt="image">
+		</div>
+  </div>
+  <div class="row mb-4">
+    <div class="col">
+				<img src="./3.jpg" class="img-fluid drop-shadow" width="100%" alt="image">
+		</div>
+  </div>
     
     
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
   </body>
     
   <footer>
